@@ -1,0 +1,2 @@
+﻿event_id,episode_id,hazard_type,alert_level,raw_intensity,intensity_unit,latitude,longitude,country_primary_name,country_primary_iso3,countries_all,incident_date,incident_time,update_date,update_time,source_primary,source_used,source_report_url,alerted,magnitude,depth_km,tsunami_alert,category,wind_speed,spi_value,discharge_return_period_yrs
+GDACS-12-123,3,EQ,Red,12,magnitude,0,0,Venezuela,VEN,"VEN, BUL",1/1/2026,14:20:00,1/1/2026,14:20:00,GDACS,GDACS,www.wikipedia.com,0,0,0,0,Category,0,0,0

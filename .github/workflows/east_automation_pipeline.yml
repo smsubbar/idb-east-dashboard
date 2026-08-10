@@ -28,8 +28,7 @@ jobs:
       # 3. Configure Copernicus CDS API credentials
       - name: Configure CDS API Credentials
         run: |
-          echo "url: https://cds.climate.copernicus.eu/api/v2" > ~/.cdsapirc
-          echo "key: ${{ secrets.CDSAPI_KEY }}" >> ~/.cdsapirc
+          echo "${{ secrets.CDSAPIRC_CONTENT }}" > ~/.cdsapirc
 
       # 4. Install OS-level C/C++ spatial dependencies
       - name: Install System Dependencies

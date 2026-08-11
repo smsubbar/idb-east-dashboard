@@ -1,9 +1,9 @@
 name: Run Early Alert Screening Tool Pipelines
 
 on:
-  # Runs twice daily at 00:00 and 12:00 UTC
+  # Runs twice daily at 00:00 and 12:00 Eastern Daylight Time (EDT)
   schedule:
-    - cron: '0 0,12 * * *'
+    - cron: '0 4,16 * * *'
   
   # Enables manual triggering from GitHub interface
   workflow_dispatch:

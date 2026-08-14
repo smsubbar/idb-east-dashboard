@@ -11,6 +11,7 @@ on:
 jobs:
   execute-pipelines:
     runs-on: ubuntu-latest
+    if: false # Remove this line when you want to resume automated updates
     timeout-minutes: 60
 
     steps:
